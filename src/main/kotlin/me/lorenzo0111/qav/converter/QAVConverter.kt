@@ -98,7 +98,7 @@ class QAVConverter(private val folder: File) {
         @JvmStatic
         fun main(args: Array<String>) {
             if (args.size < 2) {
-                System.err.println("Usage: java -jar qav-converter.jar <folder> [Y modifier]")
+                System.err.println("Usage: java -jar qav-converter.jar <convert/restore> <folder> [Y modifier]")
                 exitProcess(1)
             }
 
