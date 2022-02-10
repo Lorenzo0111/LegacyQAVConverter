@@ -29,7 +29,8 @@ tasks {
         dependsOn(shadowJar)
     }
 
-    shadowJar {
+    withType<Jar>().configureEach {
+        archiveVersion.set("")
         archiveClassifier.set("")
     }
 }
