@@ -14,7 +14,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation("net.md-5:bungeecord-config:1.16-R0.4")
     implementation("org.yaml:snakeyaml:1.30")
-    implementation("org.slf4j:slf4j-api:1.7.35")
+    implementation("org.slf4j:slf4j-api:1.7.36")
     implementation("ch.qos.logback:logback-classic:1.2.10")
 }
 
